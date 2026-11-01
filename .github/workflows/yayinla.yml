@@ -1,0 +1,33 @@
+name: Yayınla
+
+# Bu depo yalnız derlenmiş siteyi içerir; kaynak özel depoda. Özel depodaki iş akışı her yayında dosyaları buraya gönderir,
+# bu iş akışı da onları GitHub Pages'e yükler. Derleme yok.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.yayin.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Yayın klasörü
+        run: mkdir ../site && cp -a . ../site/ && rm -rf ../site/.git ../site/.github && mv ../site ./_site
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+      - id: yayin
+        uses: actions/deploy-pages@v5

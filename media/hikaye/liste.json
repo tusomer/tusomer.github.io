@@ -1,0 +1,100 @@
+{
+ "a": [
+  {
+   "src": "/media/hikaye/a-01.mp4",
+   "sure": 14.13
+  },
+  {
+   "src": "/media/hikaye/a-02.mp4",
+   "sure": 12.07
+  },
+  {
+   "src": "/media/hikaye/a-03.mp4",
+   "sure": 13.83
+  },
+  {
+   "src": "/media/hikaye/a-04.mp4",
+   "sure": 14.57
+  },
+  {
+   "src": "/media/hikaye/a-05.webp",
+   "gorsel": true
+  },
+  {
+   "src": "/media/hikaye/a-06.mp4",
+   "sure": 12.67
+  },
+  {
+   "src": "/media/hikaye/a-07.mp4",
+   "sure": 14.97
+  },
+  {
+   "src": "/media/hikaye/a-08.mp4",
+   "sure": 10.83
+  }
+ ],
+ "b": [
+  {
+   "src": "/media/hikaye/b-01.mp4",
+   "sure": 10.87
+  },
+  {
+   "src": "/media/hikaye/b-02.mp4",
+   "sure": 10.13
+  },
+  {
+   "src": "/media/hikaye/b-03.mp4",
+   "sure": 14.83
+  },
+  {
+   "src": "/media/hikaye/b-04.mp4",
+   "sure": 13.37
+  },
+  {
+   "src": "/media/hikaye/b-05.webp",
+   "gorsel": true
+  },
+  {
+   "src": "/media/hikaye/b-06.mp4",
+   "sure": 14.97
+  },
+  {
+   "src": "/media/hikaye/b-07.mp4",
+   "sure": 13.63
+  },
+  {
+   "src": "/media/hikaye/b-08.mp4",
+   "sure": 9.77
+  }
+ ],
+ "c": [
+  {
+   "src": "/media/hikaye/c-01.mp4",
+   "sure": 15.0
+  },
+  {
+   "src": "/media/hikaye/c-02.mp4",
+   "sure": 5.7
+  },
+  {
+   "src": "/media/hikaye/c-03.mp4",
+   "sure": 14.93
+  },
+  {
+   "src": "/media/hikaye/c-04.mp4",
+   "sure": 9.0
+  },
+  {
+   "src": "/media/hikaye/c-05.mp4",
+   "sure": 14.97
+  },
+  {
+   "src": "/media/hikaye/c-06.mp4",
+   "sure": 13.23
+  },
+  {
+   "src": "/media/hikaye/c-07.mp4",
+   "sure": 12.27
+  }
+ ]
+}
